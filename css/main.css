@@ -34,6 +34,8 @@ nav a {
   display: inline-block;
   line-height: 2;
   white-space: nowrap;
+  float: left;
+  width: 100%;
 }
 
 nav ul {
@@ -44,6 +46,8 @@ nav ul {
 header {
     background-color: #18294f;
     color: #fff;
+    overflow: hidden;
+    padding-bottom: 5px;
 }
 
 nav a:hover {
@@ -54,24 +58,54 @@ nav a:hover {
 
 @media only screen and (min-width: 25em) {
 
-
+  nav a {
+    width: 50%;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  nav a {
+    width: 25%;
+  }
 
-
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
+  nav ul {
+    float: right;
+    width: 30em;
+    text-align: right;
+    margin: 0;
+  }
 
+header h1 {
+    float: left;
+    width: 25%;
+  }
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  nav a {
+    width: auto;
+    padding: .75em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 
 }
