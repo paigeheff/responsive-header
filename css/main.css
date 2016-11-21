@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: "Ubuntu";
+  font-family: Ubuntu;
   font-size: 1.125rem;
 }
 
@@ -39,29 +39,27 @@ nav a {
 }
 
 nav ul {
-    list-style-type: none;
-    font-size: 1.125rem;
+  list-style-type: none;
+  font-size: 1.125rem;
 }
 
 header {
-    background-color: #18294f;
-    color: #fff;
-    overflow: hidden;
-    padding-bottom: 5px;
+  background-color: #18294f;
+  color: #fff;
+  overflow: hidden;
+  padding-bottom: 5px;
 }
 
 nav a:hover {
-    background-color: #6c8fe0;
-    color: #fff;
+  background-color: #6c8fe0;
+  color: #fff;
 }
-
 
 @media only screen and (min-width: 25em) {
 
   nav a {
     width: 50%;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -85,7 +83,7 @@ nav a:hover {
     margin: 0;
   }
 
-header h1 {
+  header h1 {
     float: left;
     width: 25%;
   }
